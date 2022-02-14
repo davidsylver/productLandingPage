@@ -51,6 +51,10 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+
+ul {
+list-style: none;
+}
 html {
 	font-size: 10px;
 	font-family: 'Montserrat', sans-serif;
