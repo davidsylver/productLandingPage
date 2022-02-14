@@ -374,6 +374,70 @@ p {
 	#header .nav-list ul a:after {
 		display: none;
 	}
+	
+	.about {
+  background-image: url(./images/about-bg.jpg);
+  background-repeat: none;
+  background-size: contain;
+}
+.about-product {
+  width: 50%;
+  font-size: 1.9rem;
+  color: #fff;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.boomer-price-list {
+  width: 30%;
+  
+}
+.boomer-price {
+  text-align: center;
+  width: 20vw;
+  
+  background-color: rgb(242, 242, 242);
+}
+.headset-type {
+  font-size: 2rem;
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+.boomer-price:first-child {
+  margin-right: 10rem;
+}
+.boomer-price > * {
+  margin-bottom: 1.5rem;
+}
+.headset-desc {
+  font-size: 1.2rem;
+}
+.headset-price {
+  font-size: 3rem;
+}
+.Get-btn {
+  background: rgb(255, 225, 0);
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  padding: .5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  transition: background .3s linear;
+}
+.Get-btn:hover {
+  color:rgb(255, 225, 0);
+  background: black;
+}
+.footer {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  font-size: .8rem;
+  background: lightgrey;
+  text-align: center;
+}
 	/* End header */
 
 	
